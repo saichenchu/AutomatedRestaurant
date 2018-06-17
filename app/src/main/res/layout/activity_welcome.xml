@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_image"
+        android:scaleType="fitXY"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:id="@+id/welcometext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Automated"
+            android:textSize="56sp"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/welcometext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/welcometext1"
+            android:text="Restaurant"
+            android:textSize="56sp"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="true"
+            />
+        <Button
+            android:id="@+id/get_started_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/welcometext2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="24dp"
+            android:text="Get Started"
+            android:textSize="24sp"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

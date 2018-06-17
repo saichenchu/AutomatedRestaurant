@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Automated Restaurant</string>
+
+    <string-array name="categories_of_dish">
+        <item>Veg</item>
+        <item>Non-Veg</item>
+        <item>Drinks</item>
+        <item>Desserts</item>
+    </string-array>
+
+</resources>

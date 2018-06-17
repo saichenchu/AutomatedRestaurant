@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Manager's Area"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/add_dish_button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:text="ADD DISHES"
+            android:textSize="24sp"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/view_dish_button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_toEndOf="@+id/add_dish_button"
+            android:layout_margin="8dp"
+            android:text="VIEW DISHES"
+            android:textSize="24sp"
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

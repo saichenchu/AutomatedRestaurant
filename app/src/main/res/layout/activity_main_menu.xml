@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_image"
+        android:scaleType="fitXY"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Welcome!"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:layout_marginTop="24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What would you like to Order?"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/veg_button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:text="VEG"
+            android:textSize="24sp"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/nonveg_button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_toEndOf="@+id/veg_button"
+            android:layout_margin="8dp"
+            android:text="NON-VEG"
+            android:textSize="24sp"
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/drinks_button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/veg_button"
+            android:layout_margin="8dp"
+            android:text="DRINKS"
+            android:textSize="24sp"
+            android:background="#ffffff"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/desserts_button"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_toEndOf="@+id/drinks_button"
+            android:layout_below="@+id/nonveg_button"
+            android:layout_margin="8dp"
+            android:text="DESSERTS"
+            android:textSize="24sp"
+            android:background="#ffffff"
+            android:textColor="#000000"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/waiter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Waiter?"
+        android:background="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

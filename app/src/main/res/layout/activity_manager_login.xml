@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Manager's Area"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_marginBottom="24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER ID"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        />
+
+    <EditText
+        android:id="@+id/userid_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#ffffff"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="LOGIN"
+        android:textSize="24sp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
